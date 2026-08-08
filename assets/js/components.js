@@ -62,7 +62,7 @@ function buildHeader() {
 
   return `<div class="container">
     <nav class="nav">
-      <a href="index.html" class="logo"><b>NE<span>X</span>ORA</b><small>STUDIO</small></a>
+      <a href="index.html" class="logo"><img src="assets/nexorastudio-logo.png" alt="Nexora Studio" class="logo-img" onerror="this.outerHTML='<b>NE<span>X</span>ORA</b><small>STUDIO</small>'"></a>
       <ul class="nav-menu" id="navMenu">${items}</ul>
       <div class="nav-actions">
         <a href="contact.html" class="btn btn--primary">Let's Talk ${svg.arrow}</a>
@@ -78,7 +78,7 @@ function buildFooter() {
   return `<div class="container">
     <div class="footer-top">
       <div class="footer-about">
-        <a href="index.html" class="logo"><b>NE<span>X</span>ORA</b><small>STUDIO</small></a>
+        <a href="index.html" class="logo"><img src="assets/nexorastudio-logo.png" alt="Nexora Studio" class="logo-img" onerror="this.outerHTML='<b>NE<span>X</span>ORA</b><small>STUDIO</small>'"></a>
         <p>We design, develop, and market digital experiences that help brands grow and succeed online.</p>
         <div class="footer-social">
           <a href="#" aria-label="Facebook">${svg.fb}</a>
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Favicon (injected once for every page)
   if (!document.querySelector('link[rel="icon"]')) {
     const fav = document.createElement('link');
-    fav.rel = 'icon'; fav.type = 'image/svg+xml'; fav.href = 'assets/favicon.svg';
+    fav.rel = 'icon'; fav.type = 'image/png'; fav.href = 'assets/nexorastudio-favicon.png';
     document.head.appendChild(fav);
   }
 

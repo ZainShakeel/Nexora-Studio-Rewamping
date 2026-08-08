@@ -4,3 +4,8 @@ Thumbs.db
 *.log
 node_modules/
 .vscode/
+
+# Shakeel Motors has its own separate repo
+shakeel-motors/
+# logo source backup
+assets/nexorastudio-logo-original.png
