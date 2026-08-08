@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Insights, Ideas & Digital Trends | Nexora Studio</title>
+  <meta name="description" content="Explore the Nexora Studio blog for the latest tips, strategies and guides on web development, UI/UX, SEO, paid media, content and digital growth." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body data-page="blog">
+  <header class="site-header" id="site-header"></header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container">
+      <div class="reveal" style="max-width:680px">
+        <div class="breadcrumb"><a href="index.html">Home</a><span>/</span>Blog</div>
+        <h1 class="hero-title">Insights, Ideas &amp; <span class="hl">Digital Trends</span></h1>
+        <p class="hero-text">Stay ahead with the latest tips, strategies and guides from the world of web, marketing and digital growth.</p>
+        <form class="search-hero" onsubmit="return false;">
+          <input type="text" id="blogSearch" placeholder="Search articles, tips, guides..." aria-label="Search articles">
+          <button type="submit" aria-label="Search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CATEGORY TABS ============ -->
+  <div class="container reveal" style="margin-bottom:60px">
+    <div class="filter-tabs">
+      <button class="filter-tab active" type="button" data-filter="all">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+        All Articles
+      </button>
+      <button class="filter-tab" type="button" data-filter="dev">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        Web Development
+      </button>
+      <button class="filter-tab" type="button" data-filter="uiux">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+        UI/UX
+      </button>
+      <button class="filter-tab" type="button" data-filter="seo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        SEO
+      </button>
+      <button class="filter-tab" type="button" data-filter="paid">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+        Paid Media
+      </button>
+      <button class="filter-tab" type="button" data-filter="content">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"/><path d="M9 12h6M9 16h4"/></svg>
+        Content
+      </button>
+      <button class="filter-tab" type="button" data-filter="lead">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        Lead Gen
+      </button>
+    </div>
+  </div>
+
+  <!-- ============ MAIN + SIDEBAR ============ -->
+  <section class="section section--white" style="padding-top:0">
+    <div class="container">
+      <div class="blog-layout">
+
+        <!-- MAIN -->
+        <div>
+          <div class="section-head reveal" style="text-align:left; margin-bottom:34px">
+            <h2 class="section-title" style="margin-bottom:6px">Latest Articles</h2>
+            <p class="section-subtitle" style="margin:0">Discover actionable insights to grow your brand online.</p>
+          </div>
+
+          <div class="grid grid--2">
+            <article class="article-card reveal" data-cat="dev">
+              <div class="article-thumb" style="--ph:linear-gradient(150deg,#20321a,#0a0c0a)"><img class="thumb-img" src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=70" onerror="this.onerror=null;this.src='https://picsum.photos/seed/nexora-dev/800/450'" alt="7 Web Development Trends to Watch in 2024" loading="lazy"><span class="tag">Development</span><span class="rt">5 min read</span></div>
+              <div class="article-body">
+                <h3>7 Web Development Trends to Watch in 2024</h3>
+                <p>From AI-assisted coding to edge rendering, here's what's shaping the future of the web this year.</p>
+                <div class="article-foot">
+                  <div class="article-author"><div class="avatar">UA</div><div><b>Usman Ali</b><small>CEO</small></div></div>
+                  <span class="article-date">Aug 5, 2024</span>
+                </div>
+                <a href="#" class="read-more">Read More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+              </div>
+            </article>
+
+            <article class="article-card reveal" data-cat="seo">
+              <div class="article-thumb" style="--ph:linear-gradient(150deg,#1a2a32,#0a0c0a)"><img class="thumb-img" src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&w=800&q=70" onerror="this.onerror=null;this.src='https://picsum.photos/seed/nexora-seo/800/450'" alt="How SEO Can Grow Your Business in 2024" loading="lazy"><span class="tag">SEO</span><span class="rt">6 min read</span></div>
+              <div class="article-body">
+                <h3>How SEO Can Grow Your Business in 2024</h3>
+                <p>Practical, white-hat SEO tactics that help brands climb search rankings and win organic traffic.</p>
+                <div class="article-foot">
+                  <div class="article-author"><div class="avatar">SK</div><div><b>Sana Khan</b><small>Digital Strategist</small></div></div>
+                  <span class="article-date">Aug 2, 2024</span>
+                </div>
+                <a href="#" class="read-more">Read More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+              </div>
+            </article>
+
+            <article class="article-card reveal" data-cat="paid">
+              <div class="article-thumb" style="--ph:linear-gradient(150deg,#2e1a32,#0a0c0a)"><img class="thumb-img" src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=70" onerror="this.onerror=null;this.src='https://picsum.photos/seed/nexora-ads/800/450'" alt="Paid Media Strategies That Actually Work" loading="lazy"><span class="tag">Paid Media</span><span class="rt">7 min read</span></div>
+              <div class="article-body">
+                <h3>Paid Media Strategies That Actually Work</h3>
+                <p>How to build data-driven ad campaigns across Google and Meta that maximize ROI, not just reach.</p>
+                <div class="article-foot">
+                  <div class="article-author"><div class="avatar">BA</div><div><b>Bilal Ahmed</b><small>Marketing Head</small></div></div>
+                  <span class="article-date">Jul 28, 2024</span>
+                </div>
+                <a href="#" class="read-more">Read More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+              </div>
+            </article>
+
+            <article class="article-card reveal" data-cat="uiux">
+              <div class="article-thumb" style="--ph:linear-gradient(150deg,#32261a,#0a0c0a)"><img class="thumb-img" src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=800&q=70" onerror="this.onerror=null;this.src='https://picsum.photos/seed/nexora-uiux/800/450'" alt="Why UI/UX Is the Key to Higher Conversions" loading="lazy"><span class="tag">UI/UX</span><span class="rt">5 min read</span></div>
+              <div class="article-body">
+                <h3>Why UI/UX Is the Key to Higher Conversions</h3>
+                <p>Small interface decisions add up — see how thoughtful UX design turns visitors into customers.</p>
+                <div class="article-foot">
+                  <div class="article-author"><div class="avatar">HR</div><div><b>Hassan Raza</b><small>Lead Developer</small></div></div>
+                  <span class="article-date">Jul 24, 2024</span>
+                </div>
+                <a href="#" class="read-more">Read More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+              </div>
+            </article>
+
+            <article class="article-card reveal" data-cat="lead">
+              <div class="article-thumb" style="--ph:linear-gradient(150deg,#233a2e,#0a0c0a)"><img class="thumb-img" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=70" onerror="this.onerror=null;this.src='https://picsum.photos/seed/nexora-leads/800/450'" alt="5 Proven Ways to Generate More Leads Online" loading="lazy"><span class="tag">Lead Gen</span><span class="rt">6 min read</span></div>
+              <div class="article-body">
+                <h3>5 Proven Ways to Generate More Leads Online</h3>
+                <p>Simple, repeatable tactics to fill your pipeline with qualified leads ready to convert.</p>
+                <div class="article-foot">
+                  <div class="article-author"><div class="avatar">SK</div><div><b>Sana Khan</b><small>Digital Strategist</small></div></div>
+                  <span class="article-date">Jul 20, 2024</span>
+                </div>
+                <a href="#" class="read-more">Read More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+              </div>
+            </article>
+
+            <article class="article-card reveal" data-cat="content">
+              <div class="article-thumb" style="--ph:linear-gradient(150deg,#26331f,#0a0c0a)"><img class="thumb-img" src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=800&q=70" onerror="this.onerror=null;this.src='https://picsum.photos/seed/nexora-content/800/450'" alt="Content Marketing Guide for Beginners" loading="lazy"><span class="tag">Content</span><span class="rt">6 min read</span></div>
+              <div class="article-body">
+                <h3>Content Marketing Guide for Beginners</h3>
+                <p>A step-by-step primer on building a content strategy that builds trust and drives growth.</p>
+                <div class="article-foot">
+                  <div class="article-author"><div class="avatar">UA</div><div><b>Usman Ali</b><small>CEO</small></div></div>
+                  <span class="article-date">Jul 18, 2024</span>
+                </div>
+                <a href="#" class="read-more">Read More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="pagination reveal">
+            <a href="#" aria-label="Previous page"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></a>
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">&hellip;</a>
+            <a href="#">8</a>
+            <a href="#" aria-label="Next page"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a>
+          </div>
+        </div>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+          <div class="widget widget--dark reveal">
+            <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>Stay Updated</h4>
+            <p>Subscribe to our newsletter and get the latest insights directly in your inbox.</p>
+            <form class="inline-form" onsubmit="return false;">
+              <input type="email" placeholder="Your email address" aria-label="Email address" required>
+              <button type="submit" aria-label="Subscribe">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </button>
+            </form>
+          </div>
+
+          <div class="widget reveal">
+            <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>Popular Posts</h4>
+            <div class="pop-post">
+              <div class="pop-thumb" style="--ph:linear-gradient(150deg,#20321a,#0a0c0a)"><img class="thumb-img" src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=70" onerror="this.onerror=null;this.src='https://picsum.photos/seed/nexora-dev/800/450'" alt="7 Web Development Trends to Watch in 2024" loading="lazy"></div>
+              <div><b>7 Web Development Trends to Watch in 2024</b><small>Aug 5, 2024</small></div>
+            </div>
+            <div class="pop-post">
+              <div class="pop-thumb" style="--ph:linear-gradient(150deg,#1a2a32,#0a0c0a)"><img class="thumb-img" src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&w=800&q=70" onerror="this.onerror=null;this.src='https://picsum.photos/seed/nexora-seo/800/450'" alt="How SEO Can Grow Your Business in 2024" loading="lazy"></div>
+              <div><b>How SEO Can Grow Your Business in 2024</b><small>Aug 2, 2024</small></div>
+            </div>
+            <div class="pop-post">
+              <div class="pop-thumb" style="--ph:linear-gradient(150deg,#2e1a32,#0a0c0a)"><img class="thumb-img" src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=70" onerror="this.onerror=null;this.src='https://picsum.photos/seed/nexora-ads/800/450'" alt="Paid Media Strategies That Actually Work" loading="lazy"></div>
+              <div><b>Paid Media Strategies That Actually Work</b><small>Jul 28, 2024</small></div>
+            </div>
+            <div class="pop-post">
+              <div class="pop-thumb" style="--ph:linear-gradient(150deg,#32261a,#0a0c0a)"><img class="thumb-img" src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=800&q=70" onerror="this.onerror=null;this.src='https://picsum.photos/seed/nexora-uiux/800/450'" alt="Why UI/UX Is the Key to Higher Conversions" loading="lazy"></div>
+              <div><b>Why UI/UX Is the Key to Higher Conversions</b><small>Jul 24, 2024</small></div>
+            </div>
+          </div>
+
+          <div class="widget reveal">
+            <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41 11 3.83A2 2 0 0 0 9.59 3.24H4a1 1 0 0 0-1 1v5.59a2 2 0 0 0 .59 1.41l9.58 9.59a2 2 0 0 0 2.83 0l4.59-4.59a2 2 0 0 0 0-2.83z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>Tags</h4>
+            <div class="tag-cloud">
+              <a href="#">Web Design</a>
+              <a href="#">SEO</a>
+              <a href="#">Marketing</a>
+              <a href="#">Development</a>
+              <a href="#">Business</a>
+              <a href="#">WordPress</a>
+              <a href="#">Tips</a>
+              <a href="#">Growth</a>
+            </div>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NEWSLETTER BAND ============ -->
+  <section class="section section--dark" style="padding-top:0">
+    <div class="container">
+      <div class="newsletter-band reveal">
+        <div class="cta-left">
+          <div class="cta-rocket"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.3-2 5-2 5s3.7-.5 5-2c.7-.8.7-2 0-2.8a2 2 0 0 0-3 0z"/><path d="M12 15 9 12a11 11 0 0 1 8-8c3 0 3 0 3 3a11 11 0 0 1-8 8z"/><circle cx="15" cy="9" r="1"/></svg></div>
+          <h3>Get the Latest <span class="text-green">Insights</span> Delivered to You</h3>
+        </div>
+        <p>Join our community and never miss an update.</p>
+        <form class="nb-form" onsubmit="return false;">
+          <input type="email" placeholder="Enter your email" aria-label="Email address" required>
+          <button type="submit" class="btn btn--primary">Subscribe
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

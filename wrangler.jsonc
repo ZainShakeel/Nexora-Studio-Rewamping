@@ -1,0 +1,9 @@
+{
+  // Cloudflare Workers — static assets deployment for the Nexora Studio site.
+  // Lets `npx wrangler deploy` serve the plain HTML/CSS/JS from the repo root.
+  "name": "nexora-studio-rewamping",
+  "compatibility_date": "2025-06-01",
+  "assets": {
+    "directory": "./"
+  }
+}
