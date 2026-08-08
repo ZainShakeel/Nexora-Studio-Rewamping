@@ -553,7 +553,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-head); font-weight: 700; line-heigh
   .grid--4, .stats-strip, .contact-cards { grid-template-columns: repeat(2, 1fr); }
   .grid--3, .grid--5, .process-row, .process-row.five, .stats-strip.five { grid-template-columns: repeat(2, 1fr); }
   .hero-inner, .about-split, .contact-grid, .blog-layout { grid-template-columns: 1fr; }
-  .hero-visual { order: -1; }
+  .hero-visual { order: 2; }
   .footer-top { grid-template-columns: 1fr 1fr; gap: 28px; }
   .blog-layout .sidebar { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 }
