@@ -24,7 +24,7 @@ const NAV = [
 
 /* --- editable business details --- */
 const BIZ = {
-  email:  'info@nexorastudio.us',
+  email:  'zain.abideen@nexorastudio.us',
   phone:  '+92 339 0765431',
   addr:   '123 Innovation Drive, Suite 400, Buffalo, Wyoming 82001, USA',
   cityShort: 'Buffalo, Wyoming, USA',
